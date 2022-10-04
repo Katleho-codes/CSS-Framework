@@ -1,0 +1,43 @@
+@import "alignment";
+@import "border-radius";
+@import "borders";
+@import "buttons";
+@import "colors";
+@import "containers";
+@import "cursors";
+@import "display";
+@import "flex";
+@import "float";
+@import "fonts";
+@import "forms";
+@import "height_width";
+@import "images";
+@import "lists";
+@import "margins";
+@import "media_queries";
+@import "object-fit";
+@import "opacity";
+@import "overflow";
+@import "padding";
+@import "position";
+@import "resize";
+@import "shadows";
+@import "tables";
+@import "text";
+@import "tooltip";
+@import "videos";
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+$defaultFont: "Inter", sans-serif;
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: $defaultFont;
+}
